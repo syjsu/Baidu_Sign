@@ -1,0 +1,17 @@
+name: itlowlylibrary
+version: 2
+
+cron:
+- description: cron_test
+  url: do.php
+  schedule: "15 0 * * *"
+  
+cron:  
+- description: cron_test2
+  url: do.php
+  schedule: "30 0 * * *"
+  
+  cron:  
+- description: cron_test3
+  url: do.php
+  schedule: "50 0 * * *"
